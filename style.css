@@ -1,0 +1,88 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: lato;
+    margin: 0;
+}
+
+tr th {
+    background-color: #0000ff;
+}
+
+.heure {
+    background-color: #EFEFEF;
+}
+
+.ligne-impair:hover .heure {
+    background-color: #b59872;
+}
+
+.ligne-impair:hover .pause {
+    background-color: #b59872;
+}
+
+.ligne-pair:hover .heure {
+    background-color: #0000ff;
+}
+
+.ligne-pair:hover .pause {
+    background-color: #0000ff;
+}
+
+td,
+th,
+table {
+    border-radius: 5px;
+    text-align: center;
+}
+
+.coursCalculMatriciel {
+    background-color: #3CD03C;
+}
+
+.coursAlgo {
+    background-color: #396671;
+}
+
+.coursStructuresFondamentales {
+    background-color: #A97F55;
+}
+
+.coursAnalyseReelle {
+    background-color: #535353;
+}
+
+.coursExperiencesInformatiques {
+    background-color: #9C0000;
+}
+
+.coursInternetEtWeb {
+    background-color: #44B1FA;
+}
+
+.coursArchi {
+    background-color: #D49F24;
+}
+
+.coursAnglais {
+    background-color: rgb(133, 117, 88);
+}
+
+.coursSport {
+    background-color: #0000ff;
+}
+
+.repas {
+    background-color: #808080;
+}
+
+
+.invisible {
+    display: none;
+}
+
+td:hover .invisible {
+    display: block;
+}

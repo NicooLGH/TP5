@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1px" cellpadding="10" cellspacing="4">
+      <caption>
+        Emploi du temps Licence
+      </caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Lundi</th>
+          <th>Mardi</th>
+          <th>Mercredi</th>
+          <th>Jeudi</th>
+          <th>Vendredi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="ligne-pair">
+          <td class="heure">8h00</td>
+          <td class="pause"></td>
+          <td class="pause"></td>
+          <td class="pause"></td>
+          <td class="pause"></td>
+          <td class="pause"></td>
+        </tr>
+
+        <tr class="ligne-impair">
+          <td class="heure">9h00</td>
+          <td class="coursCalculMatriciel">
+            <p>Calcul Matriciel</p>
+            <p class="invisible">Amphi Parmentier</p>
+          </td>
+          <td rowspan="4" class="coursAlgo">
+            <p>Algorithmique</p>
+            <p class="invisible">Amphi Peltier</p>
+          </td>
+          <td class="coursStructuresFondamentales">
+            <p>Structures fondamentales</p>
+            <p class="invisible">D13</p>
+          </td>
+          <td class="coursArchi">
+            <p>Archi.</p>
+            <p class="invisible">Amphi Parmentier</p>
+          </td>
+          <td class="coursAlgo">
+            <p>Algorithmique</p>
+            <p>F109</p>
+          </td>
+        </tr>
+
+        <tr class="ligne-pair">
+          <td class="heure">10h00</td>
+          <td class="pause"></td>
+          <td class="pause"></td>
+          <td class="pause"></td>
+        </tr>
+
+        <tr class="ligne-impair">
+          <td class="heure">11h00</td>
+          <td class="coursExperiencesInformatiques">
+            <p>Expé. Informatiques</p>
+            <p class="invisible">BC21</p>
+          </td>
+          <td class="pause"></td>
+          <td class="pause"></td>
+          <td class="pause"></td>
+        </tr>
+
+        <tr class="ligne-pair">
+          <td class="heure">12h00</td>
+          <td class="pause"></td>
+          <td colspan="2" class="repas">Repas</td>
+          <td class="pause"></td>
+        </tr>
+
+        <tr class="ligne-impair">
+          <td class="heure">13h00</td>
+          <td rowspan="3" class="coursAnalyseReelle">
+            <p>Analyse réelle app.</p>
+            <p class="invisible">M102</p>
+          </td>
+          <td class="pause"></td>
+          <td class="coursExperiencesInformatiques">
+            <p>Expé. informatiques</p>
+            <p class="invisible">M104</p>
+          </td>
+          <td rowspan="2" class="coursInternetEtWeb">
+            <p>Internet & web</p>
+            <p class="invisible">BC31</p>
+          </td>
+          <td rowspan="4" class="coursStructuresFondamentales">
+            <p>Structures fondamentales</p>
+            <p class="invisible">H12</p>
+          </td>
+        </tr>
+
+        <tr class="ligne-pair">
+          <td class="heure">14h00</td>
+          <td class="pause"></td>
+          <td class="pause"></td>
+        </tr>
+
+        <tr class="ligne-impair">
+          <td class="heure">15h00</td>
+          <td class="coursArchi">
+            <p>Archi.</p>
+            <p class="invisible">D14-15</p>
+          </td>
+          <td rowspan="2" class="coursAnglais">
+            <p>Anglais</p>
+            <p class="invisible">J.Doe Salle M001</p>
+          </td>
+          <td class="pause"></td>
+        </tr>
+
+        <tr class="ligne-pair">
+          <td class="heure">16h00</td>
+          <td class="pause"></td>
+          <td class="pause"></td>
+          <td class="coursCalculMatriciel">
+            <p>Calcul Matriciel</p>
+            <p class="invisible">BC32</p>
+          </td>
+        </tr>
+
+        <tr class="ligne-impair">
+          <td class="heure">17h00</td>
+          <td class="coursArchi">
+            <p>Archi.</p>
+            <p class="invisible">F108</p>
+          </td>
+          <td class="coursAnglais">
+            <p>Anglais</p>
+            <p class="invisible">Amphi Parmentier</p>
+          </td>
+          <td colspan="2" class="coursSport">
+            <p>Sport</p>
+            <p class="invisible">L.Enrique Parc des Princes</p>
+          </td>
+          <td class="pause"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
